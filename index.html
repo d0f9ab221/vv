@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Thumbnail Downloader</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <i class="fas fa-youtube"></i> Thumbnail Downloader
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#download">Download</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container">
+        <h1>Download YouTube Thumbnails in HD</h1>
+        <p>Extract high-quality thumbnails from any YouTube video instantly. Free, fast, and no registration required.</p>
+        
+        <div class="input-group">
+          <input type="text" id="youtube-url" placeholder="Paste YouTube URL here (e.g., https://youtube.com/watch?v=dQw4w9WgXcQ)" />
+          <button id="fetch-btn" class="cta">
+            <i class="fas fa-download"></i> Get Thumbnails
+          </button>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <i class="fas fa-star"></i> HD Quality
+          </div>
+          <div class="stat">
+            <i class="fas fa-bolt"></i> Fast Download
+          </div>
+          <div class="stat">
+            <i class="fas fa-shield-alt"></i> Secure
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="how-it-works" id="how-it-works">
+      <div class="container">
+        <h2>How It Works</h2>
+        <div class="steps">
+          <div class="step">
+            <div class="step-number">1</div>
+            <h3>Copy YouTube URL</h3>
+            <p>Copy the URL of any YouTube video you want to extract thumbnails from.</p>
+          </div>
+          <div class="step">
+            <div class="step-number">2</div>
+            <h3>Paste & Fetch</h3>
+            <p>Paste the URL into the input box and click "Get Thumbnails".</p>
+          </div>
+          <div class="step">
+            <div class="step-number">3</div>
+            <h3>Download</h3>
+            <p>Choose your preferred thumbnail quality and download instantly.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="results" id="download">
+      <div class="container">
+        <h2>Available Thumbnails</h2>
+        <div id="thumbnails-container" class="thumbnails-grid">
+          <!-- Thumbnails will be dynamically inserted here -->
+          <div class="placeholder">
+            <i class="fas fa-image"></i>
+            <p>Your thumbnails will appear here</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2024 YouTube Thumbnail Downloader. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+```
